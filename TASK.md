@@ -10,7 +10,7 @@
    - Define a volume mount point for the `/opt/nexus/sonatype-work` container directory
    - Define the command for starting Nexus server
    - Use all other best practices and security consideration you are aware of
-2) Write a bash script that builds container image from the written Nexus Dockerfile.
+2) Write a bash script that builds container image from the written Nexus Containerfile.
 3) Write a bash script that:
    - Starts the container from the Nexus image built in previous step
    - Sets the container name to nexus
@@ -33,7 +33,6 @@
 
 ## Tech stack
 
-This task is mostly technology-agnostic.
-The candidate can use any language/framework to implement his or her solution.
+Use podman as container runtime.
 All functional and non-functional requirements defined above need to be satisfied.
 The solution will be tested in a Rocky Linux virtual machine.
